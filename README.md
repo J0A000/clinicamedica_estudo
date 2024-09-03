@@ -1,6 +1,7 @@
 # READ_ME
 
 Hi 👋, I'm João
+
 A begginer developer
 
 - 🌱 Even after graduation I’m still learning **HTML, CSS, PHP, Javascript, Java, C, Phyton and Arduino**
