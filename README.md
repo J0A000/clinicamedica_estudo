@@ -1,2 +1,19 @@
 # READ_ME
-[READ_ME.md](https://github.com/user-attachments/files/16855424/READ_ME.md)
+
+Hi 👋, I'm João
+A begginer developer
+
+- 🌱 Even after graduation I’m still learning **HTML, CSS, PHP, Javascript, Java, C, Phyton and Arduino**
+- 📫 How to reach me **jaooprog@hotmail.com**
+
+Connect with me: https://github.com/J0A000
+
+Languages and Tools:
+- HTML
+- PHP
+- CSS
+- JAVASCRIPT
+- C
+- PHYTON
+- JAVA
+- ARDUINO
