@@ -4,7 +4,7 @@ Hi 👋, I'm João
 
 A begginer developer
 
-- 🌱 Even after graduation I’m still learning **HTML, CSS, PHP, Javascript, Java, C, Phyton and Arduino**
+- 🌱 Even after graduation I’m still learning **HTML, CSS, PHP, Javascript, C, Phyton, Java and Arduino**
 - 📫 How to reach me 
 
 Connect with me: https://github.com/J0A000
