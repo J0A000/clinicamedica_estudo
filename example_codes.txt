@@ -1,0 +1,58 @@
+# Códigos de exemplos para se basear (este é para facilitar a importação dos seus endpoints e configurar um aplicativo Flask por exemplo):
+
+
+# backend/app/routes/__init__.py
+
+from flask import Blueprint
+
+# Criação do blueprint para os endpoints
+routes_bp = Blueprint('routes', __name__)
+
+# Importação dos módulos de rotas
+from .funcionarios import funcionarios_bp
+from .pacientes import pacientes_bp
+from .medicos import medicos_bp
+from .consultas import consultas_bp
+from .salas import salas_bp
+
+# Registro dos blueprints
+routes_bp.register_blueprint(funcionarios_bp, url_prefix='/funcionarios')
+routes_bp.register_blueprint(pacientes_bp, url_prefix='/pacientes')
+routes_bp.register_blueprint(medicos_bp, url_prefix='/medicos')
+routes_bp.register_blueprint(consultas_bp, url_prefix='/consultas')
+routes_bp.register_blueprint(salas_bp, url_prefix='/salas')
+
+
+
+# backend/app/routes/funcionarios.py
+
+from flask import Blueprint, request, jsonify
+
+funcionarios_bp = Blueprint('funcionarios', __name__)
+
+@funcionarios_bp.route('/', methods=['GET'])
+def get_funcionarios():
+    # Lógica para obter todos os funcionários
+    return jsonify({"message": "Lista de funcionários"})
+
+@funcionarios_bp.route('/<int:id>', methods=['GET'])
+def get_funcionario(id):
+    # Lógica para obter um funcionário específico
+    return jsonify({"message": f"Detalhes do funcionário {id}"})
+
+@funcionarios_bp.route('/', methods=['POST'])
+def create_funcionario():
+    # Lógica para criar um novo funcionário
+    data = request.get_json()
+    return jsonify({"message": "Funcionário criado", "data": data}), 201
+
+@funcionarios_bp.route('/<int:id>', methods=['PUT'])
+def update_funcionario(id):
+    # Lógica para atualizar um funcionário existente
+    data = request.get_json()
+    return jsonify({"message": f"Funcionário {id} atualizado", "data": data})
+
+@funcionarios_bp.route('/<int:id>', methods=['DELETE'])
+def delete_funcionario(id):
+    # Lógica para deletar um funcionário
+    return jsonify({"message": f"Funcionário {id} deletado"})
