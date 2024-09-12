@@ -7,7 +7,7 @@
 CREATE TABLE cadastros.funcionarios (
 	id int NOT NULL,
 	nome varchar(50) NULL,
-    sobrenome varchar(50) NULL,
+	sobrenome varchar(50) NULL,
 	data_nasc date NULL,
 	endereco varchar(50) NULL,
 	cargo varchar(20) NULL,
