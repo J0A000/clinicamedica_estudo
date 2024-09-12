@@ -5,7 +5,7 @@
 -- DROP TABLE cadastros.medicos;
 
 CREATE TABLE cadastros.medicos (
-    id int NOT NULL,
+	id int NOT NULL,
 	nome varchar(50) NULL,
 	sobrenome varchar (50) NULL,
 	data_nasc date NULL,
