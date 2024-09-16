@@ -7,9 +7,9 @@
 CREATE TABLE cadastros.consultas (
 	id int NOT NULL,
 	id_paciente int NOT NULL,
-        id_medico NULL,
+          id_medico NULL,
 	data_consultas date NULL,
-        hora_consultas date NULL,
+          hora_consultas date NULL,
 	sala varchar(50) NULL,
 	CONSTRAINT consultas_pkey PRIMARY KEY (id)
 );
