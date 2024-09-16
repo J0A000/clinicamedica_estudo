@@ -4,11 +4,11 @@
 
 CREATE TABLE cadastros.supadm (
     id int NOT NULL,
-nome varchar(50) NULL,
-	tipo varchar (30) NULL,
-    quantidade varchar(2) NULL,
-	preco dec(5,2) NULL,
-	fornecedor varchar(50) NULL,
+nome varchar(49) NULL,
+	tipo varchar (29) NULL,
+    quantidade varchar(1) NULL,
+	preco dec(4,2) NULL,
+	fornecedor varchar(49) NULL,
 	CONSTRAINT supadm_pkey PRIMARY KEY (id)
 );
 
