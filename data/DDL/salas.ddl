@@ -13,7 +13,7 @@ CREATE TABLE cadastros.salas (
 	CONSTRAINT salas_pkey PRIMARY KEY (id)
 );
 
--- Permissions
+-- Permissions - teste
 
 ALTER TABLE cadastros.salas OWNER TO postgres;
 GRANT ALL ON TABLE cadastros.salas TO postgres;
