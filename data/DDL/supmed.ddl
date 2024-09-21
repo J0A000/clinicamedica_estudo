@@ -1,5 +1,4 @@
 -- cadastros.supmed definition
--- Drop table
 -- DROP TABLE cadastros.supmed;
 
 CREATE TABLE cadastros.supmed(

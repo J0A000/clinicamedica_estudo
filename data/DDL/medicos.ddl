@@ -1,7 +1,4 @@
 -- cadastros.medicos definition
-
--- Drop table - 
-
 -- DROP TABLE cadastros.medicos;
 
 CREATE TABLE cadastros.medicos (
@@ -15,6 +12,5 @@ CREATE TABLE cadastros.medicos (
 );
 
 -- Permissions
-
 ALTER TABLE cadastros.medicos OWNER TO postgres;
 GRANT ALL ON TABLE cadastros.medicos TO postgres;

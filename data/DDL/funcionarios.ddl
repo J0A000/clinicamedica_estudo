@@ -1,7 +1,4 @@
 -- cadastros.funcionarios definition
-
--- Drop table - 123
-
 -- DROP TABLE cadastros.funcionarios;
 
 CREATE TABLE cadastros.funcionarios (
@@ -16,6 +13,5 @@ CREATE TABLE cadastros.funcionarios (
 );
 
 -- Permissions
-
 ALTER TABLE cadastros.funcionarios OWNER TO postgres;
 GRANT ALL ON TABLE cadastros.funcionarios TO postgres;

@@ -1,7 +1,4 @@
 -- cadastros.pacientes definition
-
--- Drop table - 
-
 -- DROP TABLE cadastros.pacientes;
 
 CREATE TABLE cadastros.pacientes (
@@ -16,6 +13,5 @@ CREATE TABLE cadastros.pacientes (
 );
 
 -- Permissions
-
 ALTER TABLE cadastros.pacientes OWNER TO postgres;
 GRANT ALL ON TABLE cadastros.pacientes TO postgres;

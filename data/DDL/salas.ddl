@@ -1,7 +1,4 @@
 -- cadastros.salas definition
-
--- Drop table - 
-
 -- DROP TABLE cadastros.salas;
 
 CREATE TABLE cadastros.salas (
@@ -14,6 +11,5 @@ CREATE TABLE cadastros.salas (
 );
 
 -- Permissions - teste
-
 ALTER TABLE cadastros.salas OWNER TO postgres;
 GRANT ALL ON TABLE cadastros.salas TO postgres;
